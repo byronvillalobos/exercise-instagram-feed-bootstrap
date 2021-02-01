@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>The Instagram Photo Feed</title>
+  </head>
+  <body>
+   
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+
+ 
+
+-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <!-- Image and text -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="#">
+                        <img src="https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-03-512.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        Instagram
+                        </a>
+                    </li>
+                  </ul>
+
+                        <button class="btn btn-success my-2 my-sm-0" type="button" data-bs-toggle="modal" data-bs-target="#cajonpregunta">Create a new post</button>
+                   
+                       <ul class="navbar-nav mr-auto">
+                            <img src="https://cdn.onlinewebfonts.com/svg/img_503697.png" width="30" height="30" class="ml-1" class="d-inline-block align-top" alt="" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    </ul>
+            <!--
+            -->
+
+  
+       
+    </nav>
+                <div class="d-flex justify-content-right mb-5" class="float-right">
+                    <a href="Index2.html">
+                        <img src="http://www.clker.com/cliparts/8/d/c/0/1194985836742073666clip_of_new_file_01.svg.med.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        
+                        </a>    
+                </div>
+
+    <nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center">
+ 
+    <li class="img"><a class="page-link" src="http://www.clker.com/cliparts/8/d/c/0/1194985836742073666clip_of_new_file_01.svg.med.png" width="30" height="30" href="index.html"></a></li>
+    <li class="img"><a class="page-link" src="https://visualpharm.com/assets/306/Home%20Page-595b40b75ba036ed117d626e.svg" width="30" height="30" href="Index2.html"></a></li>
+  
+  </ul>
+</nav>
+
+  <!-- Modal -->
+<div class="modal fade" id="cajonpregunta" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"></h5>
+        <button id="modalBtnClick" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <input>
+      </div>
+      <div class="modal-footer">
+          <div class="float-left">
+          <img src="https://image.shutterstock.com/image-vector/camera-photography-icon-travel-vacation-260nw-1505286080.jpg" alt="" height="20px" width="auto">
+          <img src="https://image.shutterstock.com/image-vector/vector-icon-simple-forms-point-600w-1570801486.jpg" alt="" height="20px" width="auto">
+          </div>
+        <button id="modalBtnClick" type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button id="modalBtnClick" type="button" class="btn btn-primary">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div>
+     <div class="d-flex justify-content-center"> 
+      <h1>Breathe code Photo feed</h1> </div>
+    <div class="d-flex justify-content-center mb-5">
+        <div>
+            <!--Titulo de articulo y fecha-->
+            <div class="clearfix">  <!--logrado con bootstrap de maxcdn-->
+                <span class="float-left">Solo piensa en jugar y correr</span>
+                <span class="float-right">13/09/2011</span>
+  
+            </div>
+            <!--Foto-->
+            <div class="d-flex justify-content-center">
+                <img src="https://c2.thejournal.ie/media/2020/08/shutterstock_696648019-390x285.jpg">
+            </div>
+            <!--Descripcion-->
+            <div class="d-flex justify-content-center">
+                <h1 class="display-7">Este amiguito fue adoptado</h1>
+            </div>
+        </div>
+               <!--Final del articulo-->
+     </div>
+            <!--Final del feed-->  
+            
+    <div class="d-flex justify-content-center"> 
+        <p></p>     
+    </div>
+    
+    <div class="d-flex justify-content-center">
+        <div>
+            <!--Titulo de articulo y fecha-->
+            <div class="row">
+                <div class="col col-md-auto">No es gracioso?</div>
+                <div class="col col-md-auto">13/09/1980</div>
+  
+            </div>
+            <!--Foto-->
+            <div class="foto">
+                <img src="https://ggsc.s3.amazonaws.com/images/made/images/uploads/The_Science-Backed_Benefits_of_Being_a_Dog_Owner_300_200_int_c1-1x.jpg">
+            </div>
+            <!--Descripcion-->
+            <div class="d-flex justify-content-center">
+                <p>Mi primer perro durante mi infancia</p>
+            </div>
+        </div>
+               <!--Final del articulo-->
+     </div>
+            <!--Final del feed-->  
+
+    <div class="d-flex justify-content-center"> 
+      <p></p>      
+    </div>
+
+    <div class="d-flex justify-content-center">
+        <div>
+            <!--Titulo de articulo y fecha-->
+            <div class="row">
+                <div class="col col-md-auto">Its first photo</div>
+                <div class="col col-md-auto">15/08/2007</div>
+            </div>
+            <!--Foto-->
+            <div class="d-flex justify-content-center">
+                <img src="https://www.dspca.ie/wp-content/uploads/2020/07/dog-listing-icon.png">
+            </div>
+            <!--Descripcion-->
+            <div class="d-flex justify-content-center">
+                <p>Este es una de mis mascota mas joven</p>
+            </div>
+        </div>
+               <!--Final del articulo-->
+     </div>
+            <!--Final del feed-->  
+</div>
+
+
+
+
+  </body>
+</html>
